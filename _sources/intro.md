@@ -5,4 +5,4 @@ print("hello world")
 ```
 
 
-[Lihat Tentang hasbul](/tentang-hasbul.html)
+[Lihat Tentang hasbul]("./tentang-hasbul.html")
