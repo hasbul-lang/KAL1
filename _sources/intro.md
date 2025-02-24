@@ -2,6 +2,11 @@
 title: '**Pengertian Persamaan Linear**'
 
 ---
+# IRASHAIMASE🙏
+## Nama : Hasbulloh Alif Salsabila
+
+
+### Ini merupakan materi-materi yang saya pelajari di Komputasi Aljabar Linier
 
 # **Pengertian Persamaan Linear**
 ### Apa sih pengertian persamaan linier?
