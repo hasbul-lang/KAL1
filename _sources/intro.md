@@ -1,7 +1,9 @@
-# IRRASHAIMASE 🙏
+# IRASHAIMASE 🙏
 ### HASBULLOH ALIF S.
 ```pyhton
 print("hello world")
+
+tittle Persamaan Linier
 ```
 
 
