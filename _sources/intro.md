@@ -2,6 +2,7 @@
 title: '**Pengertian Persamaan Linear**'
 
 ---
+# Persamaan Linier
 # IRASHAIMASE🙏
 ## Nama : Hasbulloh Alif Salsabila
 
