@@ -105,7 +105,7 @@ Seperti terlihat pada grafik di atas, kedua garis itu bertemu (mempunyai titik p
 
 Untuk persamaan linier dengan tiga variabel, solusinya adalah titik pertemuan dari tiga bidang planar dari masing-masing persamaan.
 
-## SOAL MINGGU 1
+## Penyelesaian Soal Persamaan Linier
 
 1.$$
 \begin{array}{cc}
