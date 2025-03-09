@@ -386,3 +386,5 @@ x_3 = p
 $$
 
 di mana \(p\) adalah parameter bebas.
+
+# Matriks
