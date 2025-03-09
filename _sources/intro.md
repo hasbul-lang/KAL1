@@ -388,3 +388,4 @@ $$
 di mana \(p\) adalah parameter bebas.
 
 # Matriks
+
