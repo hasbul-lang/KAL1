@@ -243,7 +243,8 @@ $$\begin{array}{cc}
 x_1=\frac{7}{3} \\
 x_2=\frac{1}{3} \\
 x_3=\frac{1}{3}
-\end{array}$$
+\end{array}
+$$
 
 3.$$
 \begin{array}{cc}
