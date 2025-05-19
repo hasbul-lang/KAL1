@@ -1,17 +1,7 @@
----
-title: '**Pengertian Persamaan Linear**'
-
----
 # Persamaan Linier
-# IRASHAIMASE🙏
-## Nama : Hasbulloh Alif Salsabila
 
-
-### Ini merupakan materi-materi yang saya pelajari di Komputasi Aljabar Linier
-
-# **Pengertian Persamaan Linear**
+## **Pengertian Persamaan Linear**
 ### Apa sih pengertian persamaan linier?
-![persamaan-linear-1-1140x760](https://hackmd.io/_uploads/r1iL2id9ye.png)
 
 Persamaan Linier adalah merupakan persamaan matematika yang di dalamnya berisi konstanta dan variabel, konstanta merupakan nilai yabg sudah ditemukan dan variabel nilai yang harus dicari.Contoh : *a* x + *b* = 0
 
