@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Matriks &#8212; HASBULLOH ALIF BOOK</title>
+    <title>Contoh Perhitungan Determinan &#8212; My sample book</title>
   
   
   
@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -62,10 +62,11 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Matriks';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Deter';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="aljabar.html" />
+    <link rel="next" title="✅ Repleksi pada 2D (dua dimensi):" href="Transformasi.html" />
+    <link rel="prev" title="Sistem Persamaan Linear Dengan Menggunakan Invers OBE (Operasi Baris Elementer)" href="Matriks_2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -147,8 +148,8 @@
       
     
     
-    <img src="_static/hasbul.png" class="logo__image only-light" alt="HASBULLOH ALIF BOOK - Home"/>
-    <img src="_static/hasbul.png" class="logo__image only-dark pst-js-only" alt="HASBULLOH ALIF BOOK - Home"/>
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <img src="_static/logo.png" class="logo__image only-dark pst-js-only" alt="My sample book - Home"/>
   
   
 </a></div>
@@ -165,14 +166,26 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Persamaan Linier
+                    Welcome to your Jupyter Book
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="tentang-hasbul.html">Tentang Hasbul</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Matriks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PL.html">Persamaan Linier</a></li>
 
+
+<li class="toctree-l1"><a class="reference internal" href="Matriks_1.html">Matriks</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="Matriks_2.html">Sistem Persamaan Linear Dengan Menggunakan Invers OBE (Operasi Baris Elementer)</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contoh Perhitungan Determinan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Transformasi.html">✅ <strong>Repleksi pada 2D (dua dimensi)</strong>:</a></li>
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="ev.html">Eigenvalues dan Eigenvector</a></li>
 </ul>
 
     </div>
@@ -249,7 +262,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FMatriks.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FDeter.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -279,7 +292,7 @@
       
       
       
-      <li><a href="_sources/Matriks.ipynb" target="_blank"
+      <li><a href="_sources/Deter.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -289,7 +302,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -355,7 +368,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Matriks</h1>
+    <h1>Contoh Perhitungan Determinan</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -365,20 +378,10 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Matriks</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-dasar-matriks">Definisi Dasar matriks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jenis-jenis-matriks">Jenis-jenis Matriks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konsep-penjumlahan-matriks">Konsep Penjumlahan Matriks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konsep-perkalian-matriks">Konsep Perkalian Matriks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-determinan-matriks-33">1. Contoh Determinan Matriks 3×3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-determinan-matriks-44">2. Contoh Determinan Matriks 4×4</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-determinan-matriks-55">3. Contoh Determinan Matriks 5×5</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#begin-pmatrix-1-11-4-11-2-12-2-21-1-11-3-12-2-12-1-22-3-21-4-11-4-22-2-21-3-21-3-12-4-22-1-22-end-pmatrix">=
-\begin{pmatrix}
-|1_{11}*4_{11} + 2_{12}*2_{21}| &amp; |1_{11}*3_{12} + 2_{12}*1_{22}| \
-|3_{21}*4_{11} + 4_{22}*2_{21}| &amp; |3_{21}*3_{12} + 4_{22}*1_{22}|
-\end{pmatrix}</a></li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -389,135 +392,188 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="matriks">
-<h1>Matriks<a class="headerlink" href="#matriks" title="Link to this heading">#</a></h1>
-<p>Merupakan peran penting dalam matematika,tidak hanya sebagai alat untuk mempresentikan sistem linier,tetapi sebagai objek matematika independen,dengan sifat unik.</p>
-<hr class="docutils" />
-<section id="definisi-dasar-matriks">
-<h2>Definisi Dasar matriks<a class="headerlink" href="#definisi-dasar-matriks" title="Link to this heading">#</a></h2>
-<p><strong>Matriks</strong> adalah larik persegi panjang dari bilangan real(atau kompleks).</p>
-<p>–&gt; Ditulis matriks berukuran 3 X 3 sebagai A =</p>
-<div class="math notranslate nohighlight">
-\[\begin{split} A=
-\begin{pmatrix}
-a_{11} &amp; a_{12} &amp; a_{13} \\
-a_{21} &amp; a_{22} &amp; a_{23} \\
-a_{31} &amp; a_{32} &amp; a_{33}
-\end{pmatrix}\end{split}\]</div>
+  <section id="contoh-perhitungan-determinan">
+<h1>Contoh Perhitungan Determinan<a class="headerlink" href="#contoh-perhitungan-determinan" title="Link to this heading">#</a></h1>
+<section id="contoh-determinan-matriks-33">
+<h2>1. Contoh Determinan Matriks 3×3<a class="headerlink" href="#contoh-determinan-matriks-33" title="Link to this heading">#</a></h2>
+<p>Misalkan diberikan matriks:<br />
+<span class="math notranslate nohighlight">\(A =
+\begin{bmatrix}
+2 &amp; 3 &amp; 1 \\
+4 &amp; 5 &amp; 6 \\
+7 &amp; 8 &amp; 9
+\end{bmatrix}\)</span>
+Kita gunakan ekspansi kofaktor pada baris pertama:<br />
+<span class="math notranslate nohighlight">\(\det(A) = 2
+\begin{vmatrix}
+5 &amp; 6 \\
+8 &amp; 9
+\end{vmatrix} - 3
+\begin{vmatrix}
+4 &amp; 6 \\
+7 &amp; 9
+\end{vmatrix} + 1
+\begin{vmatrix}
+4 &amp; 5 \\
+7 &amp; 8
+\end{vmatrix}\)</span></p>
+<p>Hitung determinan dari masing-masing submatriks 2×2:<br />
+<span class="math notranslate nohighlight">\(\begin{vmatrix}
+5 &amp; 6 \\
+8 &amp; 9
+\end{vmatrix} = (5 \times 9) - (6 \times 8) = 45 - 48 = -3\)</span></p>
+<p><span class="math notranslate nohighlight">\(\begin{vmatrix}
+4 &amp; 6 \\
+7 &amp; 9
+\end{vmatrix} = (4 \times 9) - (6 \times 7) = 36 - 42 = -6\)</span></p>
+<p><span class="math notranslate nohighlight">\(\begin{vmatrix}
+4 &amp; 5 \\
+7 &amp; 8
+\end{vmatrix} = (4 \times 8) - (5 \times 7) = 32 - 35 = -3\)</span></p>
+<p>Substitusi hasilnya:<br />
+<span class="math notranslate nohighlight">\(\det(A) = (2 \times -3) - (3 \times -6) + (1 \times -3)\)</span>
+<span class="math notranslate nohighlight">\(= -6 + 18 - 3 = 9\)</span></p>
 </section>
-<hr class="docutils" />
-<section id="jenis-jenis-matriks">
-<h2>Jenis-jenis Matriks<a class="headerlink" href="#jenis-jenis-matriks" title="Link to this heading">#</a></h2>
-<ol class="arabic">
-<li><p><strong>Matrika Persegi</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Sebuah matriks ukuran baris dan kolom nya sama atau n x n.
-</pre></div>
-</div>
-<p>Contoh :
-\begin{pmatrix}
-1_{} &amp; 2_{} \
-3_{} &amp; 4_{}
-\end{pmatrix}</p>
-</li>
-<li><p><strong>Vektor Baris</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Sebuah matriks yang bagian bagian nya disusun dalam 1 baris dan umumnya matriks berukuran 1 x n.
-</pre></div>
-</div>
-<p>Contoh :
-\begin{pmatrix}
-1_{} &amp; 2_{} &amp; 3_{}
-\end{pmatrix}</p>
-</li>
-<li><p><strong>Vektor Kolom</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Sebuah matriks yang bagian bagian nya disusun dalam 1 kolom dan beberapa baris, n x 1.
-</pre></div>
-</div>
-<p>Contoh : \begin{pmatrix}
-1_{} \
-2_{} \
-3_{} \
-4_{}
-\end{pmatrix}</p>
-</li>
-<li><p><strong>Diagonal Matriks Persegi</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Sebuah matriks persegi dengan semua isi di luar diagonal utama bernilai nol.
-</pre></div>
-</div>
-<p>Contoh : \begin{pmatrix}
-1_{} &amp; 0_{} \
-0_{} &amp; 2_{}
-\end{pmatrix}</p>
-</li>
-<li><p><strong>Matriks Nol</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Sebuah matriks yang di dalam nya berisi nol.
-</pre></div>
-</div>
-<p>Contoh : \begin{pmatrix}
-0_{} &amp; 0_{} \
-0_{} &amp; 0_{}
-\end{pmatrix}</p>
-</li>
-</ol>
+<section id="contoh-determinan-matriks-44">
+<h2>2. Contoh Determinan Matriks 4×4<a class="headerlink" href="#contoh-determinan-matriks-44" title="Link to this heading">#</a></h2>
+<p>Misalkan diberikan matriks:<br />
+<span class="math notranslate nohighlight">\(B =
+\begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; 4 \\
+5 &amp; 6 &amp; 7 &amp; 8 \\
+9 &amp; 10 &amp; 11 &amp; 12 \\
+13 &amp; 14 &amp; 15 &amp; 16
+\end{bmatrix}\)</span>
+Gunakan ekspansi kofaktor pada baris pertama:<br />
+<span class="math notranslate nohighlight">\(\det(B) = 1
+\begin{vmatrix}
+6 &amp; 7 &amp; 8 \\
+10 &amp; 11 &amp; 12 \\
+14 &amp; 15 &amp; 16
+\end{vmatrix} - 2
+\begin{vmatrix}
+5 &amp; 7 &amp; 8 \\
+9 &amp; 11 &amp; 12 \\
+13 &amp; 15 &amp; 16
+\end{vmatrix} + 3
+\begin{vmatrix}
+5 &amp; 6 &amp; 8 \\
+9 &amp; 10 &amp; 12 \\
+13 &amp; 14 &amp; 16
+\end{vmatrix} - 4
+\begin{vmatrix}
+5 &amp; 6 &amp; 7 \\
+9 &amp; 10 &amp; 11 \\
+13 &amp; 14 &amp; 15
+\end{vmatrix}\)</span></p>
+<p>Setiap submatriks 3×3 dihitung dengan metode sebelumnya:<br />
+<span class="math notranslate nohighlight">\(\begin{vmatrix}
+6 &amp; 7 &amp; 8 \\
+10 &amp; 11 &amp; 12 \\
+14 &amp; 15 &amp; 16
+\end{vmatrix} = (6(11 \times 16 - 12 \times 15)) - (7(10 \times 16 - 12 \times 14)) + (8(10 \times 15 - 11 \times 14))\)</span></p>
+<p><span class="math notranslate nohighlight">\(= (6(176 - 180)) - (7(160 - 168)) + (8(150 - 154))\)</span>
+<span class="math notranslate nohighlight">\(= (6 \times -4) - (7 \times -8) + (8 \times -4)\)</span>
+<span class="math notranslate nohighlight">\(= -24 + 56 - 32 = 0\)</span></p>
+<p>Karena semua submatriks 3×3 dari ekspansi kofaktor juga bernilai 0, maka:
+<span class="math notranslate nohighlight">\(\det(B) = 0\)</span></p>
 </section>
-<hr class="docutils" />
-<section id="konsep-penjumlahan-matriks">
-<h2>Konsep Penjumlahan Matriks<a class="headerlink" href="#konsep-penjumlahan-matriks" title="Link to this heading">#</a></h2>
-<p>Penjumlahan matriks adalah operasi dasar dalam aljabar linear yang memungkinkan untuk menambahkan dua atau lebih matriks bersama-sama, dan syaratnya yaitu ukuran matriks harus sama, contoh = matriks 2 X 3 (2 baris, 3 kolom)</p>
-<p>Contoh :
-$<span class="math notranslate nohighlight">\(Matriks A=
-\begin{pmatrix}
-1_{} &amp; 2_{} \\
-3_{} &amp; 4_{}
-\end{pmatrix}\)</span>$</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}MatriksB=
-\begin{pmatrix}
-4_{} &amp; 3_{} \\
-2_{} &amp; 1_{}
-\end{pmatrix}\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[\begin{split}A + B=
-\begin{pmatrix}
-1+4_{} &amp; 2+3_{} \\
-3+2_{} &amp; 4+1_{}
-\end{pmatrix}\end{split}\]</div>
-<div class="math notranslate nohighlight">
-\[\begin{split}AB=
-\begin{pmatrix}
-5_{} &amp; 5_{} \\
-5_{} &amp; 5_{}
-\end{pmatrix}\end{split}\]</div>
+<section id="contoh-determinan-matriks-55">
+<h2>3. Contoh Determinan Matriks 5×5<a class="headerlink" href="#contoh-determinan-matriks-55" title="Link to this heading">#</a></h2>
+<p>Misalkan diberikan matriks:
+<span class="math notranslate nohighlight">\(C =
+\begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
+6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\
+11 &amp; 12 &amp; 13 &amp; 14 &amp; 15 \\
+16 &amp; 17 &amp; 18 &amp; 19 &amp; 20 \\
+21 &amp; 22 &amp; 23 &amp; 24 &amp; 25
+\end{bmatrix}\)</span></p>
+<p>Gunakan ekspansi kofaktor pada baris pertama:</p>
+<p><span class="math notranslate nohighlight">\(\det(C) =
+1 \times C_{11} - 2 \times C_{12} + 3 \times C_{13} - 4 \times C_{14} + 5 \times C_{15}\)</span></p>
+<p>di mana <span class="math notranslate nohighlight">\(( C_{ij} )\)</span> adalah determinan dari submatriks 4×4 yang diperoleh dengan menghapus baris ke-1 dan kolom ke- <span class="math notranslate nohighlight">\(( j )\)</span>.
+Hitung Submatriks 4×4
+Misalkan kita hitung submatriks pertama <span class="math notranslate nohighlight">\(( C_{11} )\)</span> dengan menghapus baris pertama dan kolom pertama:</p>
+<p><span class="math notranslate nohighlight">\(C_{11} =
+\begin{vmatrix}
+7 &amp; 8 &amp; 9 &amp; 10 \\
+12 &amp; 13 &amp; 14 &amp; 15 \\
+17 &amp; 18 &amp; 19 &amp; 20 \\
+22 &amp; 23 &amp; 24 &amp; 25
+\end{vmatrix}\)</span></p>
+<p>Gunakan ekspansi kofaktor pada baris pertama dari <span class="math notranslate nohighlight">\(( C_{11} )\)</span>:
+<span class="math notranslate nohighlight">\(\begin{vmatrix}
+7 &amp; 8 &amp; 9 &amp; 10 \\
+12 &amp; 13 &amp; 14 &amp; 15 \\
+17 &amp; 18 &amp; 19 &amp; 20 \\
+22 &amp; 23 &amp; 24 &amp; 25
+\end{vmatrix} = 7
+\begin{vmatrix}
+13 &amp; 14 &amp; 15 \\
+18 &amp; 19 &amp; 20 \\
+23 &amp; 24 &amp; 25
+\end{vmatrix} - 8
+\begin{vmatrix}
+12 &amp; 14 &amp; 15 \\
+17 &amp; 19 &amp; 20 \\
+22 &amp; 24 &amp; 25
+\end{vmatrix} + 9
+\begin{vmatrix}
+12 &amp; 13 &amp; 15 \\
+17 &amp; 18 &amp; 20 \\
+22 &amp; 23 &amp; 25
+\end{vmatrix} - 10
+\begin{vmatrix}
+12 &amp; 13 &amp; 14 \\
+17 &amp; 18 &amp; 19 \\
+22 &amp; 23 &amp; 24
+\end{vmatrix}\)</span></p>
+<p>Hitung Submatriks 3×3
+Misalkan kita hitung determinan submatriks 3×3 pertama:</p>
+<p><span class="math notranslate nohighlight">\(\begin{vmatrix}
+13 &amp; 14 &amp; 15 \\
+18 &amp; 19 &amp; 20 \\
+23 &amp; 24 &amp; 25
+\end{vmatrix}\)</span></p>
+<p>Gunakan ekspansi kofaktor pada baris pertama:</p>
+<p><span class="math notranslate nohighlight">\(= 13
+\begin{vmatrix}
+19 &amp; 20 \\
+24 &amp; 25
+\end{vmatrix} - 14
+\begin{vmatrix}
+18 &amp; 20 \\
+23 &amp; 25
+\end{vmatrix} + 15
+\begin{vmatrix}
+18 &amp; 19 \\
+23 &amp; 24
+\end{vmatrix}\)</span></p>
+<p>Hitung determinan matriks 2×2:</p>
+<p><span class="math notranslate nohighlight">\(\begin{vmatrix}
+19 &amp; 20 \\
+24 &amp; 25
+\end{vmatrix}
+= (19 \times 25) - (20 \times 24) = 475 - 480 = -5\)</span></p>
+<p><span class="math notranslate nohighlight">\(\begin{vmatrix}
+18 &amp; 20 \\
+23 &amp; 25
+\end{vmatrix}
+= (18 \times 25) - (20 \times 23) = 450 - 460 = -10\)</span></p>
+<p><span class="math notranslate nohighlight">\(\begin{vmatrix}
+18 &amp; 19 \\
+23 &amp; 24
+\end{vmatrix}
+= (18 \times 24) - (19 \times 23) = 432 - 437 = -5\)</span></p>
+<p>Substitusi:</p>
+<p><span class="math notranslate nohighlight">\(= 13(-5) - 14(-10) + 15(-5)\)</span></p>
+<p><span class="math notranslate nohighlight">\(= -65 + 140 - 75 = 0\)</span></p>
+<p>Karena semua submatriks 3×3 lainnya memiliki pola angka yang sama, maka determinan semua submatriks 3×3 adalah 0.</p>
+<p>Karena setiap submatriks 4×4 memiliki determinan 0, maka:
+<span class="math notranslate nohighlight">\(\det(C) = 1(0) - 2(0) + 3(0) - 4(0) + 5(0) = 0\)</span></p>
+<p>Jadi, determinan matriks 5×5 ini adalah 0</p>
 </section>
-<hr class="docutils" />
-<section id="konsep-perkalian-matriks">
-<h2>Konsep Perkalian Matriks<a class="headerlink" href="#konsep-perkalian-matriks" title="Link to this heading">#</a></h2>
-<p>Perkalian matriks adalah operasi biner yang menghasilkan matriks dari dua matriks. Untuk melakukan perkalian, jumlah kolom matriks pertama harus sama dengan jumlah baris matriks kedua.</p>
-<p>Contoh :
-$<span class="math notranslate nohighlight">\(Matriks A=
-\begin{pmatrix}
-1_{} &amp; 2_{} \\
-3_{} &amp; 4_{}
-\end{pmatrix}\)</span>$</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}MatriksB=
-\begin{pmatrix}
-4_{} &amp; 3_{} \\
-2_{} &amp; 1_{}
-\end{pmatrix}\end{split}\]</div>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="begin-pmatrix-1-11-4-11-2-12-2-21-1-11-3-12-2-12-1-22-3-21-4-11-4-22-2-21-3-21-3-12-4-22-1-22-end-pmatrix">
-<h1>=
-\begin{pmatrix}
-|1_{11}*4_{11} + 2_{12}*2_{21}| &amp; |1_{11}*3_{12} + 2_{12}*1_{22}| \
-|3_{21}*4_{11} + 4_{22}*2_{21}| &amp; |3_{21}*3_{12} + 4_{22}*1_{22}|
-\end{pmatrix}<a class="headerlink" href="#begin-pmatrix-1-11-4-11-2-12-2-21-1-11-3-12-2-12-1-22-3-21-4-11-4-22-2-21-3-21-3-12-4-22-1-22-end-pmatrix" title="Link to this heading">#</a></h1>
-<div class="math notranslate nohighlight">
-\[\begin{split}MatriksA*B=
-\begin{pmatrix}
-8_{} &amp; 5_{} \\
-20_{} &amp; 13_{}
-\end{pmatrix}\end{split}\]</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -551,13 +607,22 @@ $<span class="math notranslate nohighlight">\(Matriks A=
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="aljabar.html"
+       href="Matriks_2.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">Sistem Persamaan Linear Dengan Menggunakan Invers OBE (Operasi Baris Elementer)</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="Transformasi.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">✅ <strong>Repleksi pada 2D (dua dimensi)</strong>:</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -576,20 +641,10 @@ $<span class="math notranslate nohighlight">\(Matriks A=
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Matriks</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-dasar-matriks">Definisi Dasar matriks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jenis-jenis-matriks">Jenis-jenis Matriks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konsep-penjumlahan-matriks">Konsep Penjumlahan Matriks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konsep-perkalian-matriks">Konsep Perkalian Matriks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-determinan-matriks-33">1. Contoh Determinan Matriks 3×3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-determinan-matriks-44">2. Contoh Determinan Matriks 4×4</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-determinan-matriks-55">3. Contoh Determinan Matriks 5×5</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#begin-pmatrix-1-11-4-11-2-12-2-21-1-11-3-12-2-12-1-22-3-21-4-11-4-22-2-21-3-21-3-12-4-22-1-22-end-pmatrix">=
-\begin{pmatrix}
-|1_{11}*4_{11} + 2_{12}*2_{21}| &amp; |1_{11}*3_{12} + 2_{12}*1_{22}| \
-|3_{21}*4_{11} + 4_{22}*2_{21}| &amp; |3_{21}*3_{12} + 4_{22}*1_{22}|
-\end{pmatrix}</a></li>
-</ul>
-
   </nav></div>
 
 </div></div>
@@ -603,7 +658,7 @@ $<span class="math notranslate nohighlight">\(Matriks A=
   <div class="footer-item">
     
 <p class="component-author">
-By HASBULLOH ALIF
+By The Jupyter Book Community
 </p>
 
   </div>
