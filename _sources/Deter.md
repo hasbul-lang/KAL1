@@ -1,3 +1,20 @@
+# DETERMINAN MATRIKS
+Determinant atau determinan matriks adalah suatu bilangan skalar yang diperoleh dari operasi tertentu pada elemen-elemen suatu matriks persegi. Determinan memiliki peran penting dalam berbagai aplikasi matematika, termasuk mencari invers matriks dan menyelesaikan sistem persamaan linear.
+
+## 1. Minor Matriks
+Minor dari suatu elemen dalam matriks adalah determinan dari submatriks yang diperoleh dengan menghapus baris dan kolom yang mengandung elemen tersebut.
+
+## 2. Cofaktor Matriks
+Cofaktor dari suatu elemen dalam matriks adalah minor dari elemen tersebut dikalikan dengan faktor tanda (-1)ⁱ⁺ʲ, di mana 
+$( i )$ adalah indeks baris dan 
+$( j )$ adalah indeks kolom.
+
+## 3. Mencari Determinan dengan Konsep Minor dan Cofaktor
+Determinannya dihitung dengan ekspansi kofaktor menggunakan rumus:$\det(A) = \sum_{j=1}^{n} a_{ij} C_{ij}$
+ di mana $( a_{ij} )$
+ adalah elemen pada baris pertama dan $( C_{ij} )$
+ adalah kofaktor dari elemen tersebut.
+
 ### Contoh Perhitungan Determinan
 
 #### 1. Contoh Determinan Matriks 3×3
